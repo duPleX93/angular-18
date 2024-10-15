@@ -1,0 +1,5 @@
+@for (todo of todos; track todo.id) {
+  <div class="todo" [class.completed]="todo.completed">
+    {{ todo.title }}
+  </div>
+}
